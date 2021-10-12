@@ -2,8 +2,8 @@
 {
 	public struct Coords
 	{
-		private int _x { get; }
-		private int _y { get; }
+		public int _x { get; }
+		public int _y { get; }
 
 		public Coords(int x, int y)
 		{
@@ -13,7 +13,7 @@
 
 		public override string ToString()
 		{
-			return base.ToString();
+			return $"({_x};{_y})";
 		}
 	}
 }

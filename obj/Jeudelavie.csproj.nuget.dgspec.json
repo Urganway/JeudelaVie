@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\Jeudelavie\\Jeudelavie\\Jeudelavie.csproj": {}
+    "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\JeudelaVie\\Jeudelavie.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\Jeudelavie\\Jeudelavie\\Jeudelavie.csproj": {
+    "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\JeudelaVie\\Jeudelavie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\Jeudelavie\\Jeudelavie\\Jeudelavie.csproj",
+        "projectUniqueName": "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\JeudelaVie\\Jeudelavie.csproj",
         "projectName": "Jeudelavie",
-        "projectPath": "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\Jeudelavie\\Jeudelavie\\Jeudelavie.csproj",
+        "projectPath": "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\JeudelaVie\\Jeudelavie.csproj",
         "packagesPath": "C:\\Users\\tomca\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\Jeudelavie\\Jeudelavie\\obj\\",
+        "outputPath": "D:\\Documents\\Cours\\Enjmin\\Licence Info\\USRS46 Programmation objet\\JeudelaVie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomca\\AppData\\Roaming\\NuGet\\NuGet.Config"
