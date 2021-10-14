@@ -16,8 +16,12 @@ namespace JeudelaVie_Graphique
 		[STAThread]
 		static void Main()
 		{
-			#region Choix de l'arrangement initial => Gosper Glider Gun
 			List<Coords> aliveCells = new List<Coords>();
+			int gridSize = 50;
+			int cellPixelSize = 10;
+			int refreshTime = 50;
+			/*
+			#region Choix de l'arrangement initial => Gosper Glider Gun
 			aliveCells.Add(new Coords(24,0));
 			
 			aliveCells.Add(new Coords(22,1));
@@ -62,11 +66,27 @@ namespace JeudelaVie_Graphique
 			
 			aliveCells.Add(new Coords(12,8));
 			aliveCells.Add(new Coords(13,8));
-			#endregion
 
-			int gridSize = 36;
-			int cellPixelSize = 25;
-			int refreshTime = 50;
+			#endregion
+			*/
+			#region test initial
+
+			int aliveProba = 40;// /100
+			
+			Random rng = new Random();
+			for (int y = 0; y < gridSize; y++)
+			{
+				for(int x = 0; x < gridSize ; x++)
+				{
+					int choice = rng.Next(0, 100);
+					if (choice < aliveProba)
+					{
+						aliveCells.Add(new Coords(x,y));
+					}
+				}
+			}
+			#endregion
+			
 			
 			//création de la game
 			Game game = new Game(gridSize,aliveCells);

@@ -8,6 +8,8 @@ namespace Jeudelavie.Classes
 		public int _n { get; set; } //taille de la grille
 		public Cell[,] tabCells;
 
+		private Cell[,] previousCellTab;
+
 		public Grid(int gridSize, List<Coords> aliveCellsCoords)
 		{
 			_n = gridSize;
@@ -140,6 +142,23 @@ namespace Jeudelavie.Classes
 			{
 				cell.Update();
 			}
+		}
+
+		public bool isSimStable()
+		{
+			bool state = true;
+
+			foreach (Cell currentCell in tabCells)
+			{
+				foreach (Cell previousCell in previousCellTab)
+				{
+					if (currentCell._isAlive != previousCell._isAlive)
+					{
+						return false;
+					}
+				}
+			}
+			return state;
 		}
 		
 	}

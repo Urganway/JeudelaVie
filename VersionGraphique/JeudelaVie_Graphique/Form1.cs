@@ -6,10 +6,12 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Jeudelavie.Classes;
+using Timer = System.Windows.Forms.Timer;
 
 namespace JeudelaVie_Graphique
 {
@@ -40,6 +42,7 @@ namespace JeudelaVie_Graphique
 		private void pictureBox1_Paint(object sender, PaintEventArgs e)
 		{
 			_game.Paint(e.Graphics, _cellPixelSize);
+
 		}
 	}
 }
